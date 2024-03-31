@@ -1,63 +1,40 @@
-/* Navigation styles */
+
+
 .logo  {background-color: white;
-    height: 230px;
-    background-image:url(../images/jakes-logo.png);
+    height: 200px;
+    background-image:url(../images/Logo.png);
     background-repeat: no-repeat;
-    background-position: center;       
+    background-position: left;       
 } 
-.nav {
+
+.center {
+    height: 10%;
     display: flex;
-    background-color: black;
-    padding: 20px;
-}
-.left, .center, .right {
-    height: 50px;
-    display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
 
 }
-  .left, .right {
-    width: 25%;
-  }  
 
-.center {
-    width: 50%;
-}
+
 
 .center a {
-    color: white;
+    color: rgb(0, 83, 94);
     padding: 10px;
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
-    font-family:arial;
+    font-family:gotham;
   }
   
-  .right button {
-    background-color: yellow;
-    color:black;
-    font-size: 16px;
-    padding: 15px;
-    width: 50%;
-  }
-  
-  .left button {
-    background-color: skyblue;
-    color:black;
-    font-size: 16px;
-    padding: 15px;
-    width: 50%;
-  }
-/* Column styles */
+
 .column {
     display: flex;
-    height: 1200px;
+    height: 650px;
     width: 800px;
     flex-direction: column;
     margin: 0 auto;
 
 }
-.meal1, .meal2, .meal3 {
+.Hello{
     height: 100%;
     width: 100%;
     display: flex;
@@ -68,29 +45,44 @@
 
 }
 
-.meal1 {
-    margin-top: 20px;
-    background-image: url(../images/steak.png);
-}
-.meal2 {
-    background-image: url(../images/soup.png);
+.Hello {
+    margin-right: 20%;
+    background-image: url(../images/Ant.png);
 }
 
-.meal3 {
-    background-image:url(../images/cheesecake.png);
-}
 
 .text {
-    background: rgb(0,0,0,0.7);
-    width: 100%;
-    padding: 20px 40px;
-    color: white;
+
+    width: 800%;
+    height: 25px;
+    padding: 25px;
+    color:  rgb(71, 71, 71);
 }
 .text p {
-    color: rgba(255, 255, 255, 0.7);
-    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(71, 71, 71);
+    font-family: gotham, Helvetica, sans-serif;
   }
   .text h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(0, 83, 94);
+    font-family: gotham;
   }
-/* Footer Styles */
+
+.footer {
+  padding: 50px;
+  height: 400px;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+.fb, .in, .ig {
+  margin-left: 5px;
+  padding: 5px 10px;
+  background-color: rgb(71, 71, 71);
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-family: gotham;
+  font-weight: regular;
+  text-decoration: none;
+}
